@@ -1,24 +1,28 @@
 /*selektor pseudo-elementów*/
 
-#p1::before{
+#p1::before {
     content: "przed elementem";
     color: red;
 }
 
-#p2::after{
+#p2::after {
     content: "po elemencie";
-    color: pink;        
+    color: pink;
 }
-#p3::first-letter{
+
+#p3::first-letter {
     color: lightgreen;
     text-transform: capitalize;
 }
-#p4::first-line{
+
+#p4::first-line {
     color: yellow;
 }
-p::selection{
+
+p::selection {
     background-color: peachpuff;
 }
+
 
 /*selektor pseudo-klas*/
 
@@ -34,16 +38,40 @@ a:visited {
     color: darkgoldenrod;
 }
 
+
 /*pseudo-klasy dotyczące działań użytkownika*/
 
 a:hover {
-    color:royalblue;
+    color: royalblue;
 }
 
-a:active{
+a:active {
     color: yellow;
 }
 
-a:focus{
+a:focus {
     color: firebrick;
+}
+
+#p1_2 {
+    color: blue;
+}
+
+#p1_2:target {
+    color: red;
+}
+
+p:lang(pl) {
+    font-style: italic;
+    color: thistle;
+}
+
+p:lang(es) {
+    font-style: italic;
+    color: olivedrab;
+}
+
+p:lang(de) {
+    font-style: italic;
+    color: dimgray;
 }
