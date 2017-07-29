@@ -1,0 +1,4 @@
+#p1::before{
+    content: "przed elementem";
+    color: red;
+}
