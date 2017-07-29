@@ -101,3 +101,15 @@ div.klient:empty{
 .klient:nth-child(odd){
     background-color: darkgrey;
 }
+
+.klient:nth-child(14) {
+    background-color: crimson;
+}
+
+.klient:nth-child(5n+12) {
+    background-color: darkviolet;
+}
+
+.klient:nth-child(5n) {
+    background-color: yellow;
+}
