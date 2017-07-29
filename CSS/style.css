@@ -7,3 +7,7 @@
     content: "po elemencie";
     color: pink;        
 }
+#p3::first-letter{
+    color: lightgreen;
+    text-transform: capitalize;
+}
