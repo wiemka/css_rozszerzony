@@ -24,6 +24,7 @@
 
 #box3 {
     background-color: blue;
+    transition: width 3s, height 3s;
 }
 
 #box3:hover {
