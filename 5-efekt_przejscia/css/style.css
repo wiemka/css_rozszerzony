@@ -24,7 +24,7 @@
 
 #box3 {
     background-color: blue;
-    transition: width 3s, height 3s;
+    transition: width 3s, height 6s;
 }
 
 #box3:hover {
@@ -34,6 +34,8 @@
 
 #colors {
     background-color: yellow;
+    transition: background-color 3s ease-in 2s;
+    
 }
 
 #colors:hover {
