@@ -33,3 +33,17 @@ a:link {
 a:visited {
     color: darkgoldenrod;
 }
+
+/*pseudo-klasy dotyczące działań użytkownika*/
+
+a:hover {
+    color:royalblue;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:focus{
+    color: firebrick;
+}
