@@ -75,3 +75,15 @@ p:lang(de) {
     font-style: italic;
     color: dimgray;
 }
+
+div.klient:first-child {
+    color: chartreuse;
+}
+
+div.klient:last-child {
+    color: mediumvioletred;
+}
+
+div.klient:only-child {
+    color: lightblue;
+}
