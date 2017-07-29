@@ -6,15 +6,16 @@
 
 #box1 {
     background-color: red;
+    transition: width 2s;
 }
 
 #box1:hover {
     width: 300px;
-    transition-duration: 2s;
 }
 
 #box2 {
     background-color: green;
+    transition: height 4s;
 }
 
 #box2:hover {
