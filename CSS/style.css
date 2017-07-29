@@ -93,3 +93,11 @@ div.klient:empty{
     width: 30px;
     background-color: mediumblue
 }
+
+.klient:nth-child(even){
+    background-color: beige;
+}
+
+.klient:nth-child(odd){
+    background-color: darkgrey;
+}
