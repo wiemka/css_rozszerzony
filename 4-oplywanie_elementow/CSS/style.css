@@ -5,3 +5,8 @@ img#truskawka {
 img#truskawka2 {
     float: right;
 }
+
+p:last-child {
+    background-color: beige;
+    clear: both;
+}
