@@ -11,3 +11,6 @@
     color: lightgreen;
     text-transform: capitalize;
 }
+#p4::first-line{
+    color: yellow;
+}
