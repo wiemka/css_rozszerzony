@@ -87,3 +87,9 @@ div.klient:last-child {
 div.klient:only-child {
     color: lightblue;
 }
+
+div.klient:empty{
+    height: 30px;
+    width: 30px;
+    background-color: mediumblue
+}
