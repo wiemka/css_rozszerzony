@@ -1,3 +1,7 @@
-body{
-    background-color: aqua;
+img#truskawka {
+    float: left;
+}
+
+img#truskawka2 {
+    float: right;
 }
