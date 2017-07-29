@@ -14,3 +14,6 @@
 #p4::first-line{
     color: yellow;
 }
+p::selection{
+    background-color: peachpuff;
+}
