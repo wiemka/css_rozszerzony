@@ -18,3 +18,7 @@ div[biznesowy~="tak"] {
 div[biznesowy*="moze"] {
     color: khaki;
 }
+
+div[suma$="60"] {
+    color: indianred;
+}
