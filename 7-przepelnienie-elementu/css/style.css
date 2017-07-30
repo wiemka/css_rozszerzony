@@ -1,3 +1,25 @@
 div{
-    background-color: antiquewhite;
+    background-color: azure;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 60px;
+}
+
+#visible{
+    color: gold;
+}
+
+#hidden{
+    color: hotpink;
+}
+
+#scroll{
+    color: thistle;
+}
+
+#auto{
+    color: palegreen;
 }
