@@ -1,0 +1,7 @@
+#tlo_obrazek {
+    background-color: fuchsia;
+    background-image: url("../img/truskawka.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
