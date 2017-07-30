@@ -1,13 +1,13 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: aquamarine;
     font-size: 0;
 }
 
-.box{
+.box {
     font-size: 16px;
     height: 300px;
     width: 400px;
@@ -15,7 +15,6 @@ body{
     float: left;
     border: 10px solid yellow;
 }
-
 
 
 /*
