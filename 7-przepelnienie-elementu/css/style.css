@@ -1,25 +1,26 @@
-div{
-    background-color: azure;
-}
-.box{
+.box {
     width: 300px;
     height: 150px;
     border: 1px solid red;
     margin: 60px;
 }
 
-#visible{
+#visible {
     color: gold;
+    overflow: visible;
 }
 
-#hidden{
+#hidden {
     color: hotpink;
+    overflow: hidden;
 }
 
-#scroll{
+#scroll {
     color: thistle;
+    overflow: scroll;
 }
 
-#auto{
+#auto {
     color: palegreen;
+    overflow: auto;
 }
